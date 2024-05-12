@@ -1,0 +1,494 @@
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "formId": "4ab3bc85-803e-47bb-b50d-a2598570bf1a",
+    "accountName": "e91c22e9-c506-4442-9bda-268ab2d786eb",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "country": "United States of America",
+    "entity_name": "USER",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "firstname": "Rajesh",
+    "lastname": "Krishnan",
+    "userType": "LocalDriver",
+    "phone": "(574) 374-3734",
+    "address1": "Test Address 12",
+    "stateObj": {
+        "name": "Colorado",
+        "abbreviation": "CO"
+    },
+    "state": "CO",
+    "city": "City",
+    "email": "test+212email.com",
+    "submit": true,
+    "zip": "35004",
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:34 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 465
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NTUsImp0aSI6IlZaRVo2WWtWUlRLakNPTk1WMFM2bjRydzRLZ2E2dlo3cmNOaEl2S1wvRVlZPSIsIm5iZiI6MTcxNTUxNDQ1NSwiZXhwIjoxNzE1NTg2NDU1LCJkYXRhIjp7InVzZXJuYW1lIjoidGVzdCsyMTJlbWFpbC5jb20iLCJhY2NvdW50SWQiOiIyMzA2In19.rX8C4m9x9Kzb8CUFnrN4rKem3WbN0y58NtJTaNmhR603LWekjdq1HzZvXXFKywm8l_J5O_RRAeKIHIBfMkpRRA",
+        "refresh_token": "20939174096640ac57628e89.42476155",
+        "username": "test+212email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "formId": "dd20f8b2-1aac-11ed-861d-0242ac120002",
+    "accountName": "e91c22e9-c506-4442-9bda-268ab2d786eb",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "country": "United States of America",
+    "entity_name": "USER",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "firstname": "Ashish",
+    "lastname": "Krishnan",
+    "userType": "OfficeEmployee",
+    "phone": "(574) 374-3734",
+    "address1": "Test Address 12",
+    "stateObj": {
+        "name": "Colorado",
+        "abbreviation": "CO"
+    },
+    "state": "CO",
+    "city": "City",
+    "email": "test+4545@email.com",
+    "submit": true,
+    "zip": "35004",
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:36 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 470
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NTcsImp0aSI6IjltWmVMOVwvcm5rc2J3elQ3VWtzcXY5aHZWRU9jeUhJVHNQTlwvdTlZYnMyND0iLCJuYmYiOjE3MTU1MTQ0NTcsImV4cCI6MTcxNTU4NjQ1NywiZGF0YSI6eyJ1c2VybmFtZSI6InRlc3QrNDU0NUBlbWFpbC5jb20iLCJhY2NvdW50SWQiOiIyMzA2In19.9YNgYPTaPSH3cFonKgjMfBFeXkTf8XG2pqyrhiL7hB88r5iC_vhoiaMuhQ3oNteQfutVywA9TtiEk1U6xr7MzQ",
+        "refresh_token": "4847383926640ac5998b336.36378844",
+        "username": "test+4545@email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "businessRole": "Independent Contractor",
+    "formId": "fb1a5abd-0b5a-459c-b823-ea816459b940",
+    "accountName": "2e06031f-104b-4db6-ba45-8a945bfa0f95",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "sellerAccountName": "2e06031f-104b-4db6-ba45-8a945bfa0f95",
+    "sellerBusinessRole": null,
+    "name": null,
+    "entity_name": "USER",
+    "regiondelegate": "ClientSpecificUserType",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "role": null,
+    "userkey": "Welcome2HDOL!",
+    "firstname": "Mahesh",
+    "lastname": "Krishnan",
+    "userName": "Mahesh Krishnan",
+    "userType": "nonCdlDriver",
+    "email": "test+3553@email.com",
+    "email2": "test+3553@email.com",
+    "phone": "(987) 656-7876",
+    "address1": "#123 abc test",
+    "city": "testcity",
+    "stateObj": {
+        "name": "Arkansas",
+        "abbreviation": "AR"
+    },
+    "state": "AR",
+    "zip": 22323,
+    "register": true,
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}",
+    "registration_EMAIL_SEND": "false"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:38 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 469
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NTksImp0aSI6IjBhbDUrNlBMV2RCV0tmU3N2Mmt4TnlKK0YyaGxkdHFIZTVXdTc4VG1ITWc9IiwibmJmIjoxNzE1NTE0NDU5LCJleHAiOjE3MTU1ODY0NTksImRhdGEiOnsidXNlcm5hbWUiOiJ0ZXN0KzM1NTNAZW1haWwuY29tIiwiYWNjb3VudElkIjoiMjU4OSJ9fQ.kccBWydiaRfBezmVDHyURE7DbG9gl4QyTuOxKVgDGCRgzQwWJxqO-NgKF0CjyX4UxwfzSsB-0azi4yc8UxuVTw",
+        "refresh_token": "15625944096640ac5b36fb16.64783385",
+        "username": "test+3553@email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "businessRole": "Independent Contractor",
+    "formId": "fb1a5abd-0b5a-459c-b823-ea816459b940",
+    "accountName": "2e06031f-104b-4db6-ba45-8a945bfa0f95",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "sellerAccountName": "2e06031f-104b-4db6-ba45-8a945bfa0f95",
+    "sellerBusinessRole": null,
+    "name": null,
+    "entity_name": "USER",
+    "regiondelegate": "ClientSpecificUserType",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "role": null,
+    "userkey": "Welcome2HDOL!",
+    "firstname": "Suresh",
+    "lastname": "Krishnan",
+    "userName": "Suresh Krishnan",
+    "userType": "cdlDriver",
+    "email": "test+5656@email.com",
+    "email2": "test+5656@email.com",
+    "phone": "(987) 656-7876",
+    "address1": "#123 abc test",
+    "city": "testcity",
+    "stateObj": {
+        "name": "Arkansas",
+        "abbreviation": "AR"
+    },
+    "state": "AR",
+    "zip": 22323,
+    "register": true,
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}",
+    "registration_EMAIL_SEND": "false"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:40 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 469
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NjAsImp0aSI6Ikt6eHNsT1dGYUdGUHZiRFhZck9NVEpcLzcxQ21oSnYrUFIxNW1nVDBKcXR3PSIsIm5iZiI6MTcxNTUxNDQ2MCwiZXhwIjoxNzE1NTg2NDYwLCJkYXRhIjp7InVzZXJuYW1lIjoidGVzdCs1NjU2QGVtYWlsLmNvbSIsImFjY291bnRJZCI6IjI1ODkifX0.e5cidz2GffSSB3lcoJuAzZ1x1mD3MJw6Z0_0AC85h7BlaCns_0IEz_6OE9wwqZ94GfIVkMHrNLXbOUbTIbHf-w",
+        "refresh_token": "6492123146640ac5cbd9cb6.45036143",
+        "username": "test+5656@email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "formId": "4ab3bc85-803e-47bb-b50d-a2598570bf1a",
+    "accountName": "a41244ed-91e8-4ff8-a044-82d1aa5ac48b",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "country": "United States of America",
+    "name": "Mahesh",
+    "entity_name": "USER",
+    "postLoginUrl": null,
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "firstname": "Mahesh",
+    "iCFirstName": "Mahesh",
+    "lastname": "Krishnan",
+    "userType": "DotDriver",
+    "email": "test+564@email.com",
+    "email2": "test+564@email.com",
+    "phone": "(876) 567-8876",
+    "address1": "#123 abc test",
+    "city": "cleveland",
+    "city1IC": "cleveland",
+    "stateObj": {
+        "name": "Ohio",
+        "abbreviation": "OH"
+    },
+    "state": "OH",
+    "zip": 23233,
+    "zipCode1IC": 23233,
+    "iCEmail": "test+564@email.com",
+    "submit": true,
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}",
+    "icLastName": "Krishnan"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:41 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 468
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NjIsImp0aSI6IlwvVUppMHNIdjlMa0JpdUQ3T1E1TGNjUVByWXNNWGcxNUZcL1Q5Z1RDcnJxTT0iLCJuYmYiOjE3MTU1MTQ0NjIsImV4cCI6MTcxNTU4NjQ2MiwiZGF0YSI6eyJ1c2VybmFtZSI6InRlc3QrNTY0QGVtYWlsLmNvbSIsImFjY291bnRJZCI6IjI2MzEifX0.WXcMxlNvV_h1si7Z9Qop9jJFAjPZwpanDNUVkjuAJQwhfUYajmpGVDvbpI-hZjhiMNcF_RJskHrNPRVuGoj8Gg",
+        "refresh_token": "1610685396640ac5e4ad8f9.24637724",
+        "username": "test+564@email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "formId": "dd20f8b2-1aac-11ed-861d-0242ac120002",
+    "accountName": "d0d9ed1d-20a3-4131-8d4f-f360560180c5",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "country": "United States of America",
+    "name": "gvfd grfed",
+    "entity_name": "USER",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "firstname": "Mahesh",
+    "iCFirstName": "Mahesh",
+    "lastname": "Krishnan",
+    "userType": "General",
+    "email": "test+44@email.com",
+    "email2": null,
+    "phone": "(876) 543-4567",
+    "address1": "vgbh",
+    "city": "gvb",
+    "city1IC": "gvb",
+    "stateObj": {
+        "name": "Ohio",
+        "abbreviation": "OH"
+    },
+    "state": "AK",
+    "zip": 23333,
+    "zipCode1IC": 23333,
+    "iCEmail": "test+44@email.com",
+    "submit": true,
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}",
+    "icLastName": "Krishnan"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:43 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 464
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NjMsImp0aSI6IkpiWDNUZUdOMmVzcUNYKzJBRGxiMWVcLzd5eFpsQ0V6MGtnNWhkZFJIM29FPSIsIm5iZiI6MTcxNTUxNDQ2MywiZXhwIjoxNzE1NTg2NDYzLCJkYXRhIjp7InVzZXJuYW1lIjoidGVzdCs0NEBlbWFpbC5jb20iLCJhY2NvdW50SWQiOiIyNjMyIn19.UPUVIgztg0n85SdJLZ2RgTaaNzGGqCh3xLYKnSzCPKSpGW7VmxNhvVMA6K9Sm-WGehnYnkGru3zvEzRPUPYiJA",
+        "refresh_token": "2207247526640ac5fcd1e94.57521692",
+        "username": "test+44@email.com"
+    }
+}
+Request method:	POST
+Request URI:	https://hubdriveonlinetest.eoxvantage.com:9080/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "commands": [
+        "store_cache_data",
+        "sign_in"
+    ],
+    "generatelink": "true",
+    "user_management_commands": [
+        "CreateUserFromLink"
+    ],
+    "type": "BUSINESS",
+    "formId": "4ab3bc85-803e-47bb-b50d-a2598570bf1a",
+    "accountName": "d0d9ed1d-20a3-4131-8d4f-f360560180c5",
+    "isUserAnApplicant": "{\"isUserAnApplicant\":\"yes\"}",
+    "identifier_field": "email",
+    "country": "United States of America",
+    "name": "gvfd grfed",
+    "entity_name": "USER",
+    "postLoginUrl": "pipeline",
+    "template": "NewAccount",
+    "extraAPPByForm": "{\"payment\":\"cec14502-3c24-4616-a0dd-5a6bf25fabf4\"}",
+    "firstname": "Mahesh",
+    "iCFirstName": "Mahesh",
+    "lastname": "Krishnan",
+    "userType": "DotDriver",
+    "email": "test+466@email.com",
+    "email2": null,
+    "phone": "(876) 543-4567",
+    "address1": "vgbh",
+    "city": "gvb",
+    "city1IC": "gvb",
+    "stateObj": {
+        "name": "Ohio",
+        "abbreviation": "OH"
+    },
+    "state": "AK",
+    "zip": 23333,
+    "zipCode1IC": 23333,
+    "iCEmail": "test+466@email.com",
+    "submit": true,
+    "appId": "a4b1f073-fc20-477f-a804-1aa206938c42",
+    "preferences": "{\"timezone\":\"Asia/Calcutta\"}",
+    "icLastName": "Krishnan"
+}
+HTTP/1.1 200 OK
+Date: Sun, 12 May 2024 11:47:44 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Length: 466
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=utf-8
+
+{
+    "status": "success",
+    "data": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MTU1MTQ0NjUsImp0aSI6IjhqYzRWalRFYVR0UUJvQTUrVnBxcmVxNDR1OEo3a2ttVXR3VUM3Q2VUMFU9IiwibmJmIjoxNzE1NTE0NDY1LCJleHAiOjE3MTU1ODY0NjUsImRhdGEiOnsidXNlcm5hbWUiOiJ0ZXN0KzQ2NkBlbWFpbC5jb20iLCJhY2NvdW50SWQiOiIyNjMyIn19.Pbbl_PMlAOr4TbFH52m3YU3cNWcxLJfmeXodK3LfQHchpINa7bon75va9GYYwsoMjkG0THchB4f-MxwsTQe1EA",
+        "refresh_token": "13666726706640ac616586c4.45295314",
+        "username": "test+466@email.com"
+    }
+}
